@@ -1,0 +1,122 @@
+{
+    "title": "Notes",
+    "author": "bei",
+    "description": "select * from learn",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "expandable-chapters",
+        "code",
+        "copy-code-button",
+        "todo",
+        "search-pro",
+        "advanced-emoji",
+        "emphasize",
+        "sharing-plus",
+        "page-treeview",
+        "simple-page-toc",
+        "page-toc-button",
+        "klipse",
+        "pageview-count",
+        "auto-scroll-table",
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/kocdaniel"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "Blankj",
+                "repo": "glory",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "donate": {
+            "alipay": "",
+            "title": "",
+            "button": "赞赏",
+            "alipayText": " "
+        },
+        "pluginsConfig": {
+            "sharing": {
+               "douban": false,
+               "facebook": false,
+               "google": true,
+               "hatenaBookmark": false,
+               "instapaper": false,
+               "line": true,
+               "linkedin": true,
+               "messenger": false,
+               "pocket": false,
+               "qq": false,
+               "qzone": true,
+               "stumbleupon": false,
+               "twitter": false,
+               "viber": false,
+               "vk": false,
+               "weibo": true,
+               "whatsapp": false,
+               "all": [
+                   "douban", "facebook", "google", "hatenaBookmark", 
+                   "instapaper", "linkedin","twitter", "weibo", 
+                   "messenger","qq", "qzone","viber","vk","weibo",
+                   "pocket", "stumbleupon","whatsapp"
+               ]
+           }
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            "shortcut": "./source/images/favicon-32x32.webp",
+            "bookmark": "./source/images/favicon-32x32.webp",
+            "appleTouch": "./source/images/apple-touch-icon.webp"
+        },
+        "code": {
+            "copyButtons": false
+        },
+        "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+}
